@@ -5,6 +5,7 @@
  * main - Entry point
  *
  * Return : Always 1 (Success)
+ * Description : Prints a specific quote to the standart output
  */
 int main(void)
 {
