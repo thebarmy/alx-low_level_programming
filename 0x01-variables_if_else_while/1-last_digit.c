@@ -1,27 +1,23 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
- * main - Main function
+ * main - Entry point
  *
- * This function generates a random number and checks whether it is positive, zero, or negative.
- *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-    int n;
-
-    srand(time(0));
-    n = rand() - RAND_MAX / 2;
-
-    if (n > 0)
-        printf("%d is positive\n", n);
-    else if (n == 0)
-        printf("%d is zero\n", n);
-    else
-        printf("%d is negative\n", n);
-
-    return (0);
+int n;
+int x;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+x = n % 10;
+if (x > 5)
+{ printf("Last digit of %d is %d and is greater than 5\n", n, x); }
+else if (x == 0)
+{ printf("Last digit of %d is %d and is 0\n", n, x); }
+else
+{ printf("Last digit of %d is %d and is less than 6 and not 0\n", n, x); }
+return (0);
 }
