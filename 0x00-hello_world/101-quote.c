@@ -1,7 +1,7 @@
 #include <unistd.h>
-
+#include <stdio.h>
 /**
- * main - Entry point 
+ * main -Program that prints a line to the standard err
  *
  * Return: Always 1 (Success)
  */
