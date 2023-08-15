@@ -1,9 +1,9 @@
 #include "main.h"
-#include <unistd.h>
+#include <stdio.h>
 /**
  * main - prints putchar
  *
- * Return: 0
+ * Return: Always 0 (success)
  */
 
 int main(void)
