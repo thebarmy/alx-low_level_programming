@@ -2,7 +2,7 @@
 /**
  * puts2 - function that prints every other character of a string
  *@str: input
- *Return: print 
+ *Return:half of input
  */
 void puts2(char *str)
 {
