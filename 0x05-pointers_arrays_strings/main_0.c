@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void puts_half(char *);
+void print_array(int *, int);
 
 /**
  * main - check the code for Holberton School students.
@@ -9,9 +9,8 @@ void puts_half(char *);
  */
 int main(void)
 {
-char *str;
+int array[5] = {-198, 298, 402, -1024, 98};
 
-str = "Holberton!"
-puts_half(str);
+print_array(array, 5);
 return (0);
 }
