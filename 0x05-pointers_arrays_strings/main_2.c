@@ -11,7 +11,7 @@ int main(void)
 {
 char *str;
 
-str = "Holberton School students";
+str = "";
 puts_half(str);
 return (0);
 }
