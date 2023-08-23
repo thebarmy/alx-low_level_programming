@@ -13,14 +13,14 @@ int month;
 int day;
 int year;
 int dayOfYear;
-
-month = 02;
+month = 2;
 day = 29;
 year = 2000;
 
 printf("Date: %02d/%02d/%04d\n", month, day, year);
 
-dayOfYear = convert_day(month, day);
+int dayOfYear = convert_day(month, day, year);
+
 print_remaining_days(month, dayOfYear, year);
 
 return (0);
