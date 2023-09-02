@@ -19,6 +19,7 @@ int check_num(char *str)
 		{
 			return (0);
 		}
+
 		count++;
 	}
 	return (1);
@@ -35,7 +36,7 @@ int check_num(char *str)
 int main(int argc, char *argv[])
 {
 	int count;
-	int _str_to_int;
+	int str_to_int;
 	int sum = 0;
 
 	count = 1;
@@ -43,10 +44,9 @@ int main(int argc, char *argv[])
 	{
 		if (check_num(argv[count]))
 		{
-		 _str_to_int = atoi(argv[count]);
-		 sum += _str_to_int;
+		 str_to_int = atoi(argv[count]);
+		 sum += str_to_int;
 		}
-
 		else
 		{
 		printf("Error\n");
@@ -56,5 +56,6 @@ int main(int argc, char *argv[])
 		count++;
 	}
 	printf("%d\n", sum);
+
 	return (0);
 }
