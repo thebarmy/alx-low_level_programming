@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "3-calc.h"
 /**
- * main - peints the result
+ * main - prints the result
  * @argc: number of arguments
  * @argv: an array of pointers
  *
